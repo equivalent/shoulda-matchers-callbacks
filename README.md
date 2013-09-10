@@ -1,6 +1,24 @@
 # Shoulda::Matchers::Callbacks
 
-TODO: Write a gem description
+Gem created from my refused :broken_hearth: 
+[Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers) pull request
+https://github.com/thoughtbot/shoulda-matchers/pull/353 :smile:
+ 
+
+## ActiveModel Matchers
+
+Matchers to test callbacks:
+
+```ruby
+describe Event do
+  it { should have_after_create_callback_on(:send_invitation_emails) }
+  it { should have_before_destroy_callback_on(:delete_calendar_entries)
+}
+  it { should have_around_update_callback_on(:sign_other_events) }
+  it { should have_after_validation_callback_on(:mark_event_upcomming) }
+  # ... you can use any of possible ActiveRecord::Base::CALLBACKS
+end
+```
 
 ## Installation
 
@@ -16,9 +34,7 @@ Or install it yourself as:
 
     $ gem install shoulda-matchers-callbacks
 
-## Usage
 
-TODO: Write usage instructions here
 
 ## Contributing
 
