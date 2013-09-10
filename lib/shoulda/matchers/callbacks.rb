@@ -1,9 +1,10 @@
 require "shoulda/matchers/callbacks/version"
+require "shoulda/matchers/active_model/callbacks"
 
 module Shoulda
   module Matchers
     module Callbacks
-      # Your code goes here...
+
     end
   end
 end
