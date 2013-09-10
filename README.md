@@ -1,6 +1,6 @@
 # Shoulda::Matchers::Callbacks
 
-Gem created from my refused :broken_hearth: 
+Gem created from my refused :broken_heart: 
 [Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers) pull request
 https://github.com/thoughtbot/shoulda-matchers/pull/353 :smile:
  
